@@ -1,0 +1,23 @@
+{
+  "name": "pro-lang-loader",
+  "version": "1.0.0",
+  "description": "lang loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shappyds/pro-lang-loader.git"
+  },
+  "keywords": [],
+  "author": "Todd Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shappyds/pro-lang-loader/issues"
+  },
+  "homepage": "https://github.com/shappyds/pro-lang-loader#readme",
+  "dependencies": {
+    "loader-runner": "^4.1.0"
+  }
+}

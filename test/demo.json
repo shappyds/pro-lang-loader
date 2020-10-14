@@ -1,0 +1,18 @@
+{
+  "aaa": {
+    "value": "aaa",
+    "order": ""
+  },
+  "bbb": {
+      "value": "bbb",
+      "order": ""
+  },
+  "button.save": {
+      "value": "SAVE",
+      "order": ""
+  },
+  "button.cancel": {
+      "value": "CANCEL",
+      "order": ""
+  }
+}

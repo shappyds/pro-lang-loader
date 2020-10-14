@@ -10,7 +10,7 @@ module.exports = function(source) {
     })
 
   } catch (error) {
-    this.emitError(error)
+    console.log(error)
   }
 
   value = value ? JSON.stringify(value)

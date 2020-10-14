@@ -1,6 +1,6 @@
 {
   "name": "pro-lang-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lang loader for webpack",
   "main": "src/index.js",
   "scripts": {

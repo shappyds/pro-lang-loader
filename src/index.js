@@ -1,11 +1,15 @@
+const { getOptions } = require('loader-utils')
+const { localize } = require('pseudo-localization')
+
 module.exports = function(source) {
   let value 
   try {
+    const options = getOptions(this)
     value = JSON.parse(source)
 
     Object.keys(value).forEach(key => {
       if (value[key] && value[key].value) {
-        value[key] = value[key].value
+        value[key] = options && options.pseudoLocalization ? localize(value[key].value) : value[key].value
       }
     })
 
